@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lensora — Smart Eyewear, Sharper Vision</title>
+  <style>
+    body { margin:0;font-family: 'Segoe UI', Arial, sans-serif; background: #f5f7fa; color: #222;}
+    header, footer { background: #111; color: #fff; text-align: center; padding: 2em 0;}
+    nav a { color: #fff; margin: 0 1em; text-decoration: none; font-weight: 500;}
+    .hero { background-image: url('https://images.unsplash.com/photo-1518715308788-3005759c61db?auto=format&fit=crop&w=1200&q=80'); background-size: cover; color: #fff; padding: 6em 2em 5em; text-align:center;}
+    .hero h1 { font-size: 2.5em; margin-bottom: 0.5em;}
+    .cta { font-size: 1em; padding: 0.9em 2em; margin: 0.5em; background: #1395ba; color:#fff; border:none; border-radius:25px; cursor:pointer; }
+    .section { max-width: 1000px; margin: 2.5em auto; background: #fff; padding: 2.5em 2em; border-radius:24px; box-shadow:0 2px 8px #ececec;}
+    h2 { margin-top: 0; color: #1395ba;}
+    .shop-collections, .bestsellers { display: flex; flex-wrap: wrap; gap: 2em;justify-content:center;}
+    .collection, .product { flex: 1 1 180px; min-width: 220px; border:1px solid #ececec; border-radius:16px; background:#f8fafc; text-align:center; margin-bottom:1em; }
+    .collection img, .product img { width:80%; margin:1em;}
+    .testimonials { display:flex; flex-direction:row; flex-wrap:wrap; gap: 1em;}
+    .testimonial { flex:1 1 180px; min-width:210px; border-left:5px solid #1395ba; padding:1em;}
+    .footer-links { margin-bottom: 1em;}
+    input[type="email"], input[type="file"] { font-size:1em; padding:0.6em 1em; border-radius:6px; border: 1px solid #ccc; margin-right:0.5em;}
+    button.subscribe { background:#1395ba; color:#fff; border:none; padding:0.7em 1.5em; border-radius:18px; cursor:pointer;}
+    .icons { display:inline-flex; gap:1.5em; margin:1em 0;}
+    .icon { font-size:2em;}
+    @media (max-width:700px){
+      .shop-collections, .bestsellers, .testimonials {flex-direction:column;align-items:center;}
+      .section { padding:1em;}
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="#shop">Shop</a>
+      <a href="#tryon">Try-On</a>
+      <a href="#vision">Vision Test</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div style="font-size:1.3em; margin-top: 0.5em;">Smart Eyewear. Sharper Vision.</div>
+  </header>
+
+  <section class="hero">
+    <h1>Lensora — Smart Eyewear, Sharper Vision</h1>
+    <p>See Sharper. Live Brighter.</p>
+    <button class="cta">Shop Glasses</button>
+    <button class="cta">Try-On Instantly</button>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Lensora</h2>
+    <p>
+      Lensora delivers precise vision and smart style. Discover frames engineered for clarity, comfort, and a bold sense of individuality.<br>
+      <b>Trusted by thousands — Crafted with care.</b>
+    </p>
+  </section>
+
+  <section class="section" id="shop">
+    <h2>Shop Collections</h2>
+    <div class="shop-collections">
+      <div class="collection">
+        <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80" alt="Prescription Glasses">
+        <h3>Prescription Glasses</h3>
+        <div>Blue Light Defense</div>
+      </div>
+      <div class="collection">
+        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Sunglasses">
+        <h3>Fashion Sunglasses</h3>
+      </div>
+      <div class="collection">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Kids Range">
+        <h3>Kids’ Range</h3>
+      </div>
+      <div class="collection">
+        <img src="https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?auto=format&fit=crop&w=400&q=80" alt="Lenses Accessories">
+        <h3>Lenses & Accessories</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="tryon">
+    <h2>Virtual Try-On & Style Match Tool</h2>
+    <p>
+      <b>Try Before You Buy</b> — Live AR Try-On.<br>
+      <button class="cta">Try It Live</button>
+    </p>
+    <p>
+      <b>Find Your Match</b>: Guided frame selection for every face.
+    </p>
+  </section>
+
+  <section class="section" id="bestsellers">
+    <h2>Bestsellers & Trending Now</h2>
+    <div class="bestsellers">
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Product 1">
+        <h3>Classic Metal Round</h3>
+        <div>₹3,499</div>
+        <div>★★★★★</div>
+        <button class="cta">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1460596001208-1fec1a04432a?auto=format&fit=crop&w=400&q=80" alt="Product 2">
+        <h3>Blue Block Pro</h3>
+        <div>₹2,499</div>
+        <div>★★★★☆</div>
+        <button class="cta">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=400&q=80" alt="Product 3">
+        <h3>Urban Sun</h3>
+        <div>₹1,999</div>
+        <div>★★★★★</div>
+        <button class="cta">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80" alt="Product 4">
+        <h3>Junior Buddy</h3>
+        <div>₹1,199</div>
+        <div>★★★★☆</div>
+        <button class="cta">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="vision">
+    <h2>Vision Test & Rx Upload</h2>
+    <p>
+      <b>Need a prescription? </b>Upload your valid Rx, or try our vision test online.<br>
+      <input type="file" accept="image/png,image/jpeg,application/pdf">
+    </p>
+  </section>
+
+  <section class="section" id="reviews">
+    <h2>Customer Reviews</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        <p>“Crystal clear lenses and unbeatable style!”</p>
+        <div>— Ayesha P.</div>
+      </div>
+      <div class="testimonial">
+        <p>“Easy try-on, super comfortable glasses!”</p>
+        <div>— Vikram S.</div>
+      </div>
+      <div class="testimonial">
+        <p>“My kids love the colorful collection!”</p>
+        <div>— Neha M.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="why">
+    <h2>Why Lensora?</h2>
+    <div class="icons">
+      <span class="icon">🔁</span> Free 14-day Returns
+      <span class="icon">🛡️</span> 1-Year Quality Guarantee
+      <span class="icon">🔒</span> Secure Checkout
+      <span class="icon">💬</span> Expert Advice On-Call
+    </div>
+  </section>
+
+  <section class="section" id="newsletter">
+    <h2>Newsletter & Offers</h2>
+    <form>
+      <input type="email" placeholder="Your email address">
+      <button class="subscribe">Subscribe</button>
+    </form>
+    <small>No spam, just style updates and lens care tips.</small>
+  </section>
+
+  <footer>
+    <div class="footer-links">
+      <a href="#shop">Shop</a> |
+      <a href="#tryon">Try-On</a> |
+      <a href="#vision">Vision Test</a> |
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="icons">
+      <a href="https://instagram.com/" class="icon" target="_blank">📷</a>
+      <a href="https://facebook.com/" class="icon" target="_blank">📘</a>
+      <a href="https://wa.me/" class="icon" target="_blank">💬</a>
+    </div>
+    <div>Smart Eyewear. Sharper Vision.</div>
+    <div style="font-size:0.85em; margin-top:0.5em;">&copy; 2025 Lensora</div>
+  </footer>
+
+</body>
+</html>
